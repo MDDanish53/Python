@@ -1,0 +1,7 @@
+characteristics :
+
+1. elements are ordered
+2. mutable
+3. dynamic (grow or shrink the size)
+4. heterogeneous (different data type values can be stored)
+

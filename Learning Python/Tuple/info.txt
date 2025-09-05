@@ -1,0 +1,15 @@
+tuple can be created as : tuple = (data1, data2, ...)
+used in areas where data change is not required
+
+characteristics : 
+1. immutable
+2. heterogeneous(can store different types of data)
+3. created using ()
+
+operations : 
+len()
+min
+max
+count
+index
+sort

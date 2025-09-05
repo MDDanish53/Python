@@ -1,0 +1,32 @@
+file is a collection of stored data, we can access file, modify it, and can save it permanently.
+
+we can store text, images, videos and other types of data in file.
+
+If we are working with a file in python we can :
+
+read file
+write file 
+append file - add data at the end of existing data in the file 
+modify file
+
+in python if we want to work with file then we can work with two primary file types :
+
+1. text file (.txt, .csv) - we can read its data as a human being
+2. binary files (non-text data, .png, .jpg, .pdf, .mp3) - we cannot read its data as a human being
+
+_______________________________________________________
+
+if we want to work with a file then we have to open it first
+
+with statement : 
+
+as we have to close the file after opening it, so instead of writing close function again and again, we use with statement
+
+with statement closes our file automatically after using it prevents file corruption. 
+
+syntax - with open('file_path', 'mode') as var_name(file_name):
+    print(var_name.read()) //reading the file
+
+we are not using close function as with statement automatically closes the file after using it 
+
+make file manager project based on file handling from youtube

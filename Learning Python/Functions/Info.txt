@@ -1,0 +1,21 @@
+function is a block of code which performs a specific task 
+
+Advantages : 
+
+1. functions are reusable - function can be reused again and again 
+2. modularity - complex process of project can be divided into small functions
+3. scoping - a varaible created outside a function is not accessible inside a function
+4. maintainability - if a function has an issue, we can replace or change it without changing the entire code 
+
+Disadvantages :
+
+1. if a function is not designed properly then it consumes memory and time due to which our program speed reduces 
+2. if our program code is not maintained properly then it is difficult to maintain it.
+
+function name should be meaningful
+length of function should be small
+avoid global varaibles and rely on parameters
+
+global variables - varaibles which are defined outside the function, these varaibles can be used through out the program as well as inside the function 
+
+local varaibles - varaibles which are defined and used only inside a particular function, local varaibles are accessible only inside the function 

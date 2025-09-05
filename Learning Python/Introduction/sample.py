@@ -1,0 +1,1 @@
+print('Mohammad Danish is learning python')

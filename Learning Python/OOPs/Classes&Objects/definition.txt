@@ -1,0 +1,13 @@
+class - a class is a blueprint or template for creating objects. it groups related data(properties) and methods(functions) in a structure. We create objects using the class
+
+Ex - A map for creating a house
+
+Here, Class = map
+      Object = house (contains actual data and behaviours)    
+
+object are the actual instance of a class
+
+Ex - creating a car from blueprint
+
+Here, class = car blueprint
+      object = actual car

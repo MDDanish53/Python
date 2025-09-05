@@ -1,0 +1,15 @@
+Inheritance - properties of parent class can be used in its child class without writing the property in child class, it reduces code duplication
+using inheritance we can reuse code and extend the existing code.
+
+if we want to use properties of a class in another class then we have to pass the class name(whose property we want to use) in the class where we want to use the properties:
+
+ex - 
+class parent():
+    p1
+    p2
+
+class child(parent):
+    p3
+    p4
+
+in child class we can access and use the p1, and p2 of parent class

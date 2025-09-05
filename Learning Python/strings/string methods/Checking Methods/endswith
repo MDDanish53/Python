@@ -1,0 +1,8 @@
+'''
+it checks whether string ends with a given character or not, returns boolean value
+syntax - string.endswith("character_to_be_checked")
+'''
+
+#checking if name ends with h or not
+name = "Mohammad Danish"
+print(name.endswith("h"))

@@ -1,0 +1,25 @@
+before OOPs developers used Structured/procedural programming 
+
+Structured programming - data execute step by step in functions 
+
+problems faced in structured programming :
+
+1. Code Duplication
+2. Code Maintenance
+3. Data Security Issues (Modifying any part of program is critical)
+4. Poor Code Reusability
+5. No Real World Representation 
+
+Concepts in OOPS :
+
+1. Classes and Objects
+2. Inheritance
+3. Encapsulation
+4. Abstraction
+5. Polymorphism
+
+__________________________________________________________
+
+self - 
+it is used inside a class to refer to the current object.
+using self we can store object specific data(properties and methods ) 

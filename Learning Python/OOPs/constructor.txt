@@ -1,0 +1,5 @@
+there are 3 types of constructor :
+
+1. default constructor - constructor without a parameter, has only self
+2. parameterized constructor - constructor with parameter, (self, name, age)
+3. constructor with default values (self, name="Unknown", age=0)

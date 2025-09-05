@@ -1,0 +1,39 @@
+what are errors ? 
+
+errors are those problems or mistakes which prevents our program to run.
+
+types of errors : 
+
+1. compile time error - error occured while writing the code before execution. ex - missed a colon
+2. runtime error - error occured when we run the program . ex - print(2%0) gives ZeroDivisionError
+3. logical error - unexpected output from the code. ex - taking values from user to add the numbers but giving the result of multiplication
+
+bugs - errors in software
+debugging - fixing errors
+
+we can resolve the logical and compile time errors by us but we cannot resolve the runtime errors. to resolve these errors we use exception handling  
+
+Exception - it is a special type of runtime error.
+1. exception occurs at runtime(start running) of program
+2. it provides us a detailed message(warning sign)
+3. we can catch the coming error and we can handle it, doing this our program does not crashes.
+
+Exception Handling - 
+
+1. identifying errors and fixing them, it is used to run program smoothly without crashing it.
+2. it allow developer to log errors so that he can fix them later. for ex - if we know that ZeroDivisionError will occur so instead of crashing our program will run smoothly. then later we can modify our code in order to prevent this error
+3. our program is maintained and organized . ex - if we have 100 lines of code so instead of applying exception handling on whole code, apply exception handling on the part of code where we think that the error should occur, doing this our code will be more organized.
+
+how to do exception handling ?
+
+use try-except block 
+
+in try we write our the code where we think error will occur
+what action should be taken if an error occurs is written in except block, we can provide the error name to it and if that error occurs then the except block will execute
+
+doing this our program does not crashes
+
+Finally Block - 
+
+1. this block will execute everytime irrespective of the raise of exception
+2. it is used for tasks where we want to close files or to release a resource

@@ -1,0 +1,6 @@
+arithmetic - math operations
+comparison - compare values
+logical - combine multiple conditions
+assignment - assign values to varibles
+identity - compare memory location of variables
+membership - checks if value exists in a sequence or not

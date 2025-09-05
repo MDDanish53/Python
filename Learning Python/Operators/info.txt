@@ -1,0 +1,5 @@
+Follow PEMDAS rule for calculation flow (high to low priority)
+P - Parenthesis ()
+E - exponent **
+MD - * / // %
+AS - + -

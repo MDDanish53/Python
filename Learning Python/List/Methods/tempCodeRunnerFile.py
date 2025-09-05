@@ -1,0 +1,1 @@
+print(f"max of list = {max(list)}")

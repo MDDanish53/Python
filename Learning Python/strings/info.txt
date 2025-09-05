@@ -1,0 +1,31 @@
+string is a sequence of characters 
+it includes - numbers, a-z, A-Z, !@#$%^&*()_{}[]-=+ and white spaces
+it is written in single/double quotes i.e 'python' or "python"
+'''
+this is a 
+multi line string
+'''
+"""
+this is a 
+multi line string
+"""
+
+a = 'Python'
+P 0 
+y 1
+t 2
+h 3
+o 4
+n 5
+if we want to print P then wo write 
+print(a[0])
+
+characteristics :
+1. Strings are immutable
+2. Indexed
+3. Iterable
+
+Indexing are of two types: 
+
+1) Positive - starts from left to right(0, 1, 2....)
+2) Negative - starts from right to left(-1, -2, ....). used to access the character from end of the string

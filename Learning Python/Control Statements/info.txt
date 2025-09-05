@@ -1,0 +1,9 @@
+our program runs from top to bottom
+we apply two conditions to calculate area of given radius
+if radius value is float then only calculate its area 
+if its other data type value then dont calculate the area
+for this we use control statements
+it consists of :
+1. conditonals - if, elif, else
+2. loops - for, while, else, suite, nested, infinite
+3. statements - pass, continue, break, assert, return 

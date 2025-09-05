@@ -1,0 +1,6 @@
+we can run a block of code multiple times based on a condition
+
+there are two types of loops :
+1. for loop (it iterates on an element for a limited time, it iterates on sequences)
+2. while loop (it runs until a condition is true, if false it stops its execution)
+

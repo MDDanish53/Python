@@ -1,0 +1,15 @@
+1. read mode(r) - opens a file for reading only. if the file to be opened does not exist then read mode does not create a new file. read mode does not overwrite the existing data of a file
+
+2. write mode(w) - Opens a file for writing. if the file to be written does not exist then write mode will create a new file. write mode overwrites the existing data of a file 
+
+3. Append Mode(a) - Opens a file for writing, but new data is added at the end of existing data. if the file to be written does not exist then append mode will create a new file. append mode does not overwrites the existing data of file instead it adds new data at the end of existing data
+
+4. Exclusive creation mode(x) - Creates a file but fails if it already exists. it does not overwrites existing data.
+
+5. Read and Write mode(r+) - we use it if we want to open and read a file and also we want to write data in it. it does not create a new file if not exists. It overwrites the existing data
+
+6. Write and Read Mode (w+) - opens a file for both reading and writing, but it overwrites if the file exists. it creates a new file if not exists. it overwrites existing data. it deletes the existing data of a file
+
+7. Append and Read Mode (a+) - opens a file for reading and appending, preserving existing data. it creates a new file if not exists. it does not overwrites exisiting data. it does not print the read() data
+
+8. Exclusive creation mode with read and write (x+) - Creates a new file but fails if it exists. it does not overwrite existing data

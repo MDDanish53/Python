@@ -1,0 +1,4 @@
+'''
+compare two or more values 
+gives true/false in the result 
+'''
